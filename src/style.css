@@ -7,11 +7,17 @@
 }
 
 :root {
-
+    --app-bg-color: hsl(40, 100%, 60%);
+    --container-bg-color: white;
 }
 
 html {
     font-size: 16px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
 }
 
 #app {
@@ -19,5 +25,5 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--app-bg-color);
 }
-
